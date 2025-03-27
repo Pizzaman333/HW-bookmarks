@@ -1,0 +1,149 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "price": 1500,
+        "description": "A high-performance laptop for all your needs."
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 700,
+        "description": "A modern smartphone with an excellent camera."
+      },
+      {
+        "id": 3,
+        "name": "Headphones",
+        "price": 200,
+        "description": "Noise-cancelling headphones for better focus."
+      },
+      {
+        "id": 4,
+        "name": "Smartwatch",
+        "price": 300,
+        "description": "A stylish smartwatch with fitness tracking features."
+      },
+      {
+        "id": 5,
+        "name": "Tablet",
+        "price": 600,
+        "description": "A lightweight tablet perfect for reading and browsing."
+      },
+      {
+        "id": 6,
+        "name": "Wireless Mouse",
+        "price": 50,
+        "description": "Ergonomic wireless mouse with long battery life."
+      },
+      {
+        "id": 7,
+        "name": "Mechanical Keyboard",
+        "price": 120,
+        "description": "A mechanical keyboard with customizable RGB lighting."
+      },
+      {
+        "id": 8,
+        "name": "Gaming Monitor",
+        "price": 400,
+        "description": "A high-refresh-rate monitor for smooth gaming."
+      },
+      {
+        "id": 9,
+        "name": "External Hard Drive",
+        "price": 150,
+        "description": "1TB external hard drive for extra storage."
+      },
+      {
+        "id": 10,
+        "name": "Portable Speaker",
+        "price": 100,
+        "description": "A Bluetooth speaker with deep bass and long battery life."
+      },
+      {
+        "id": 11,
+        "name": "Webcam",
+        "price": 80,
+        "description": "Full HD webcam for video calls and streaming."
+      },
+      {
+        "id": 12,
+        "name": "VR Headset",
+        "price": 500,
+        "description": "A virtual reality headset for an immersive experience."
+      },
+      {
+        "id": 13,
+        "name": "Smart Light Bulb",
+        "price": 40,
+        "description": "A WiFi-enabled light bulb with multiple colors."
+      },
+      {
+        "id": 14,
+        "name": "Wireless Charger",
+        "price": 30,
+        "description": "Fast wireless charger compatible with various devices."
+      },
+      {
+        "id": 15,
+        "name": "Fitness Tracker",
+        "price": 90,
+        "description": "A waterproof fitness tracker with heart rate monitoring."
+      },
+      {
+        "id": 16,
+        "name": "E-Reader",
+        "price": 250,
+        "description": "A lightweight e-reader with an anti-glare display."
+      },
+      {
+        "id": 17,
+        "name": "Drone",
+        "price": 800,
+        "description": "A high-quality drone with a 4K camera."
+      },
+      {
+        "id": 18,
+        "name": "Streaming Stick",
+        "price": 60,
+        "description": "A streaming device with 4K support for your TV."
+      },
+      {
+        "id": 19,
+        "name": "Robot Vacuum",
+        "price": 350,
+        "description": "An AI-powered robotic vacuum cleaner."
+      },
+      {
+        "id": 20,
+        "name": "Electric Scooter",
+        "price": 700,
+        "description": "A foldable electric scooter for urban commuting."
+      },
+      {
+        "id": 21,
+        "name": "Bluetooth Earbuds",
+        "price": 120,
+        "description": "Wireless earbuds with noise cancellation."
+      },
+      {
+        "id": 22,
+        "name": "Smart Coffee Maker",
+        "price": 180,
+        "description": "A coffee maker that can be controlled via an app."
+      },
+      {
+        "id": 23,
+        "name": "Gaming Chair",
+        "price": 250,
+        "description": "An ergonomic gaming chair with lumbar support."
+      },
+      {
+        "id": 24,
+        "name": "Digital Drawing Tablet",
+        "price": 350,
+        "description": "A professional drawing tablet for digital artists."
+      }
+    ]
+  }
+  
