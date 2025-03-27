@@ -666,16 +666,18 @@ var _bookmarks = require("./js/bookmarks");
 
 },{"./js/bookmarks":"04kEV"}],"04kEV":[function(require,module,exports,__globalThis) {
 const list = document.getElementById("bookmarkList");
-const bookmarks = JSON.parse(localStorage.getItem("bookmarks"));
-bookmarks.forEach((link)=>list.innerHTML += `<li>
-    <a href="${link}" target="_blank">${link}</a>
-    <button class="delete">X</button>
-</li>`);
-document.querySelectorAll(".delete").forEach((el)=>el.addEventListener("click", (event)=>{
-        event.target.parentNode.remove();
-        bookmarks.splice(bookmarks.indexOf(event.target.previousElementSibling.textContent), 1);
-        localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-    }));
+let bookmarks = JSON.parse(localStorage.getItem("bookmarks"));
+if (bookmarks !== null) {
+    bookmarks.forEach((link)=>list.innerHTML += `<li>
+          <a href="${link}" target="_blank">${link}</a>
+          <button class="delete">X</button>
+      </li>`);
+    document.querySelectorAll(".delete").forEach((el)=>el.addEventListener("click", (event)=>{
+            event.target.parentNode.remove();
+            bookmarks.splice(bookmarks.indexOf(event.target.previousElementSibling.textContent), 1);
+            localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+        }));
+} else bookmarks = [];
 document.getElementById("addBookmarkBtn").addEventListener("click", (event)=>{
     const link = document.getElementById("bookmarkInput").value;
     if (link === "") {
