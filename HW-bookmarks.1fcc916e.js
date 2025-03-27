@@ -663,8 +663,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"fILKw":[function(require,module,exports,__globalThis) {
 var _bookmarks = require("./js/bookmarks");
+var _form = require("./js/form");
 
-},{"./js/bookmarks":"04kEV"}],"04kEV":[function(require,module,exports,__globalThis) {
+},{"./js/bookmarks":"04kEV","./js/form":"izK3G"}],"04kEV":[function(require,module,exports,__globalThis) {
 const list = document.getElementById("bookmarkList");
 let bookmarks = JSON.parse(localStorage.getItem("bookmarks"));
 if (bookmarks !== null) {
@@ -698,6 +699,17 @@ document.getElementById("addBookmarkBtn").addEventListener("click", (event)=>{
             localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
         }));
     localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+});
+
+},{}],"izK3G":[function(require,module,exports,__globalThis) {
+const username = document.getElementById("username");
+const password = document.getElementById("password");
+username.value = localStorage.getItem("username");
+password.value = localStorage.getItem("password");
+document.getElementById("formApp").addEventListener("submit", function(event) {
+    event.preventDefault();
+    localStorage.setItem("username", username.value);
+    localStorage.setItem("password", password.value);
 });
 
 },{}]},["6BDg4","fILKw"], "fILKw", "parcelRequiredd59")
