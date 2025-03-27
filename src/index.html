@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookmarks</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <div class="container" id="bookmarkApp">
-        <h1>Закладки</h1>
-        <input type="text" id="bookmarkInput" placeholder="URL">
-        <button id="addBookmarkBtn">Додати</button>
-        <ul id="bookmarkList">
-        </ul>
-      </div>
+      <h1>Закладки</h1>
+      <input type="text" id="bookmarkInput" placeholder="URL" />
+      <button id="addBookmarkBtn">Додати</button>
+      <ul id="bookmarkList"></ul>
+    </div>
+    <form class="container" id="formApp">
+      <h1>Форма</h1>
+      <input type="text" id="username" placeholder="Логін" required/>
+      <input type="password" id="password" placeholder="Пароль" required/>
+      <button id="saveBtn" type="submit">Зберегти</button>
+    </form>
     <script type="module" src="./main.js"></script>
-</body>
+  </body>
 </html>
