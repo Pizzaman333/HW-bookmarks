@@ -75,4 +75,44 @@ button.delete {
 button.delete:hover {
   background-color: #c82333;
 }
+
+.product-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.product-item {
+  background: #fff;
+  border-radius: 8px;
+  height: 60px;
+  margin: 10px 0;
+  padding: 15px;
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.product-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px #00000026;
+}
+
+.name {
+  color: #333;
+  margin: 0 0 5px;
+  font-size: 1.5rem;
+}
+
+.price {
+  color: #007bff;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.description {
+  color: #555;
+  font-size: 1rem;
+}
 /*# sourceMappingURL=HW-bookmarks.4d663569.css.map */
