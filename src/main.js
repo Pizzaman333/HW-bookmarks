@@ -1,1 +1,1 @@
-console.log("aaaaaaaaaaaaaaaa")
+import "./js/bookmarks";
